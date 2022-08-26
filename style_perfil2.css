@@ -1,0 +1,237 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-----------BARRA DE NAVEGACIÓN--------------------*/
+
+.contenedor1{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.bloque0{
+    width: 820px;
+    height: 70px;
+    display: flex;
+    justify-content: start;
+    margin-left: 280px;
+    align-items: center;
+    color: white;
+}
+.title{
+    font-size: 30px;
+    color: white;
+}
+.links{
+    width: 70%;
+    display: flex;
+    list-style-type: none;
+}
+.bloque0 a{
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.btn{
+    width: 100px;
+    height:30px ;
+    color: white;
+    background-color: rgba(0, 217, 255, 0.822);
+    font-size: 13px;
+    
+}
+
+/*---------------------------------------------*/
+.contenedor2{
+    height:620px ;
+    width: 720px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 260px;
+    margin-right: 240px;
+
+}
+.columna1{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    flex:2;
+}
+
+.columna2{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    flex: 1;
+}
+
+/*------------------PERFIL DE JANE--------------------*/
+.Perfil_Jane{
+    margin: 10px;
+    flex-direction: column;
+    border: silver solid;
+    display: flex;
+    flex: 2;
+
+}
+.barra1{  
+    width: 520px;
+    height: 100px;
+    background-color: cadetblue;
+}
+.img_usuario{
+    height: 85px;
+    width: 85px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.info_contacto{
+    margin-top: 50px;
+    margin-left: 30px;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    line-height: 1px;
+}
+.ubicacion{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img_mapa{
+    height: 25px; width: 20px;
+    margin-right:8px ;
+}
+.img_tuerca{
+    height: 23px; width: 23px;
+}
+
+.editar{
+    margin-top: 600px;
+    font-size: 20px;
+    color:  rgb(26, 112, 192);
+}
+
+/*-------------------EDUCACION----------------------*/
+.Education{
+    height: 100px;
+    width: 520px;
+    margin: 10px;
+    flex-direction: column;
+    border: silver solid;
+    display: flex;
+    flex: 1;
+    height: 1000px;
+
+}
+.barra2, .barra3, .barra4{
+    height: 50px;
+    background-color: rgb(65, 63, 63);
+}
+.title_edu, .title_Cone, .title_Your{
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+.Info_Edu p{
+    margin-left: 30px;
+}
+
+/*------------CAJA DE CONEXIONES------------*/
+.Connection{
+    margin: 10px;
+    flex-direction: column;
+    border: silver solid;
+    display: flex;
+}
+.barra3, .barra4{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title_Cone, .title_Your{
+    margin-left:5px;
+    font-size: 20px;
+}
+.TODD, .Phil{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+.img_todd, .img_phil{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.boton2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 0;
+    font-weight: bold
+}
+
+.botones{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.accept, .close{
+    height: 35px;
+    width: 35px;
+}
+.botones2{
+    margin-left: 43px;
+    margin-top: 3px;
+}
+
+
+/*-------CAJA YOUR CONNECTIONS-------*/
+
+.Your_Connections{
+    margin: 10px;
+    flex-direction: column;
+    border: silver solid;
+    display: flex;
+}
+.boton3{
+    height: 30px;
+    width: 50px;
+    border-radius: 70%;
+    border: 0;
+    font-weight: bold
+}
+.Adrien img, .Anne img, .Alayne img, .Arry img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.sin_sangria, .sin_sangria2{
+    list-style:none;
+    padding-left: 10px;
+}
+
+.Adrien, .Anne, .Alayne, .Arry{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.view{
+    border-top: silver solid;
+    padding: 10px;
+}
